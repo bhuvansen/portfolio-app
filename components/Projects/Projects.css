@@ -1,0 +1,30 @@
+.section-header{
+    font-size: 45px;
+    font-weight: 700;
+}
+.project-image{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    aspect-ratio: 2.145;
+}
+.project-card{
+    background: #151515;
+    border-radius: 16px;
+    box-shadow: 3px 3px 5px 1px rgb(29 29 29), 
+                -3px -3px 5px 1px rgb(29 29 29),
+                -3px 3px 5px 1px rgb(29 29 29),
+                3px -3px 5px 1px rgb(29 29 29);
+    height: 100%
+}
+.project-details{
+    margin: 0 24px;
+}
+.project-card:hover{
+    transform:scale(1.05) ;
+    transition-duration: 0.3s;
+    box-shadow: 1px 1px 3px 0.5px rgb(29 29 29), 
+                -1px -1px 3px 0.5px rgb(29 29 29),
+                -1px 1px 3px 0.5px rgb(29 29 29),
+                1px -1px 3px 0.5px rgb(29 29 29);
+}
