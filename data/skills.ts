@@ -1,75 +1,69 @@
-// export const skills = [
-//   "Next.js",
-//   "React",
-//   "Java",
-//   "Spring Boot",
-//   "AWS",
-//   "Docker",
-//   "PostgreSQL",
-// ];
+export type Skill = {
+  message: string
+  percentage: number
+}
 
 
-import ReactLogo from "../Assets/Skills/ReactLogo.svg"
-import HtmlLogo from "../Assets/Skills/HtmlLogo.svg"
-import CssLogo from "../Assets/Skills/CssLogo.svg"
-import JavascriptLogo from "../Assets/Skills/JavascriptLogo.svg"
-import MongoDbLogo from "../Assets/Skills/MongoDbLogo.svg"
-import NodeLogo from "../Assets/Skills/NodeLogo.svg"
-import GitLogo from "../Assets/Skills/GitLogo.svg"
-import ExpressLogo from "../Assets/Skills/ExpressLogo.svg"
-import AwsLogo from "../Assets/Skills/AwsLogo.svg"
-import TypescriptLogo from "../Assets/Skills/TypescriptLogo.svg"
+export const skills:Skill[] = [
+    {
+        message: "Next JS",
+        percentage: 70,
+    },
+    {
+        message: "React JS",
+        percentage: 70,
+    },
+    {
+        message: "Java",
+        percentage: 50,
+    },
+    {
+        message: "Spring Boot",
+        percentage: 25,
+    },
+    {
+        message: "TypeScript",
+        percentage: 75,
+    },
+    {
+        message: "JavaScript",
+        percentage: 75,
+    },
+    {
+        message: "Node JS",
+        percentage: 75,
+    },
+    {
+        message: "Express JS",
+        percentage: 60,
+    },
+    {
+        message: "AWS",
+        percentage: 60,
+    },
 
-
-export const skills = [
     {
-        logo:ReactLogo,
-        message:"React JS",
-        percentage:70
+        message: "Cypress",
+        percentage: 50,
     },
     {
-        logo:HtmlLogo,
-        message:"HTML",
-        percentage:80
+        message: "Storybook",
+        percentage: 50,
     },
     {
-        logo:CssLogo,
-        message:"CSS",
-        percentage:60
+        message: "HTML",
+        percentage: 80,
     },
     {
-        logo:JavascriptLogo,
-        message:"JavaScript",
-        percentage:70
+        message: "CSS",
+        percentage: 60,
     },
     {
-        logo:MongoDbLogo,
-        message:"MongoDB",
-        percentage:60
+        message: "MongoDB",
+        percentage: 60,
     },
     {
-        logo:NodeLogo,
-        message:"Node JS",
-        percentage:75
-    },
-    {
-        logo:GitLogo,
-        message:"Git",
-        percentage:80
-    },
-    {
-        logo:ExpressLogo,
-        message:"Express JS",
-        percentage:75
-    },
-    {
-        logo:AwsLogo,
-        message:"AWS",
-        percentage:60
-    },
-    {
-        logo:TypescriptLogo,
-        message:"TypeScript",
-        percentage:50
+        message: "Git",
+        percentage: 80,
     },
 ]
