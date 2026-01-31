@@ -1,11 +1,11 @@
-export default function Banner() {
+export default function About() {
     const startDate = new Date("2021-04-01")
     const now = new Date()
     const experienceYears =
         now.getFullYear() - startDate.getFullYear() - (now < new Date(now.getFullYear(), startDate.getMonth()) ? 1 : 0)
 
     return (
-        <section className="min-h-screen flex items-center justify-center text-center px-6">
+        <section id="about" className="min-h-screen flex items-center justify-center text-center px-6">
             <div>
                 <h1 className="text-4xl md:text-6xl font-extrabold mb-6">Full Stack Developer</h1>
 
